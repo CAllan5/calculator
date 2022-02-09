@@ -4,43 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
     <h1>Calculator</h1>
     <div class="main">
-        <div class="inputBar">0.0</div>
+        <div class="inputBar">0</div>
         <div id="btnPanel">
             <div class="btnSec">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>/</button>
+                <button value="1">1</button>
+                <button value="2">2</button>
+                <button value="3">3</button>
+                <button value='00'id="div">/</button>
             </div>
             <div class='btnSec'>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>x</button>
+                <button value="4">4</button>
+                <button value="5">5</button>
+                <button value="6">6</button>
+                <button value="00" id="mul">x</button>
             </div>
             <div class="btnSec">
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>-</button>
+                <button value="7">7</button>
+                <button value="8">8</button>
+                <button value="9">9</button>
+                <button value="00" id="sub">-</button>
             </div>
             <div class="btnSec">
-                <button class="btnDbl">0</button>
+                <button class="btnDbl" value="0">0</button>
                 <div class='btnSec'>
-                    <button>.</button>
-                    <button>+</button>
+                    <button value="." id="dot">.</button>
+                    <button value="00" id="add">+</button>
                 </div>
             </div>
             <div class='btnSec'>
-                <button class='btnDbl'>c</button>
-                <button class='btnDbl'>=</button>
+                <button value="00" id="clear" class='btnDbl'>C</button>
+                <button value="00" id="equal" class='btnDbl'>=</button>
             </div>
         </div>
     </div>
